@@ -5,13 +5,10 @@ package SquareMeter;
  */
 public class SqrMeter {
     public static void main(String args[]){
-    int sideA = 10;
+    int sideA = 5;
     int sideB = 10;
-    int sideC = 15;
-    double p = (sideA + sideB + sideC) / 2;
 
-      double s = (p * (p - sideA) * (p - sideB) * (p - sideC));
-    double S = Math.sqrt(s);
+    double S = sideA * sideB;
 
 
     System.out.println(S);
